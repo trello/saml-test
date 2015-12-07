@@ -1,0 +1,16 @@
+{
+  "name": "trello-saml-test",
+  "version": "1.0.0",
+  "description": "A test application for debugging Trello's SAML 2 integration",
+  "main": "index.js",
+  "author": "Trello Inc.",
+  "repository": {
+    "url": "https://github.com/trello/server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "saml2-js": "^1.2.0",
+    "xmldom": "^0.1.19"
+    "xml-crypto": "^0.8.1"
+  }
+}

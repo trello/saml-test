@@ -1,0 +1,103 @@
+{
+  "name": "trello-saml-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "async": {
+      "version": "0.2.10",
+      "from": "async@>=0.2.10 <0.3.0"
+    },
+    "async-ext": {
+      "version": "0.1.5",
+      "from": "async-ext@>=0.1.4 <0.2.0",
+      "resolved": "https://registry.npmjs.org/async-ext/-/async-ext-0.1.5.tgz",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@>=1.5.2 <1.6.0",
+          "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz"
+        }
+      }
+    },
+    "debug": {
+      "version": "1.0.4",
+      "from": "debug@>=1.0.4 <2.0.0"
+    },
+    "ejs": {
+      "version": "0.8.8",
+      "from": "ejs@>=0.8.3 <0.9.0",
+      "resolved": "https://registry.npmjs.org/ejs/-/ejs-0.8.8.tgz"
+    },
+    "lodash": {
+      "version": "3.10.1",
+      "from": "lodash@>=3.5.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+    },
+    "ms": {
+      "version": "0.6.2",
+      "from": "ms@0.6.2",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-0.6.2.tgz"
+    },
+    "node-forge": {
+      "version": "0.2.24",
+      "from": "node-forge@0.2.24",
+      "resolved": "https://registry.npmjs.org/node-forge/-/node-forge-0.2.24.tgz"
+    },
+    "saml2-js": {
+      "version": "1.2.0",
+      "from": "saml2-js@latest",
+      "resolved": "https://registry.npmjs.org/saml2-js/-/saml2-js-1.2.0.tgz"
+    },
+    "sax": {
+      "version": "1.1.4",
+      "from": "sax@>=0.6.0",
+      "resolved": "https://registry.npmjs.org/sax/-/sax-1.1.4.tgz"
+    },
+    "underscore": {
+      "version": "1.6.0",
+      "from": "underscore@>=1.6.0 <1.7.0",
+      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz"
+    },
+    "xml-crypto": {
+      "version": "0.8.1",
+      "from": "xml-crypto@>=0.8.1 <0.9.0",
+      "resolved": "https://registry.npmjs.org/xml-crypto/-/xml-crypto-0.8.1.tgz"
+    },
+    "xml-encryption": {
+      "version": "0.7.2",
+      "from": "xml-encryption@>=0.7.0 <0.8.0",
+      "resolved": "https://registry.npmjs.org/xml-encryption/-/xml-encryption-0.7.2.tgz"
+    },
+    "xml2js": {
+      "version": "0.4.15",
+      "from": "xml2js@>=0.4.1 <0.5.0",
+      "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.15.tgz",
+      "dependencies": {
+        "xmlbuilder": {
+          "version": "4.1.0",
+          "from": "xmlbuilder@>=2.4.6",
+          "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-4.1.0.tgz"
+        }
+      }
+    },
+    "xmlbuilder": {
+      "version": "2.1.0",
+      "from": "xmlbuilder@>=2.1.0 <2.2.0",
+      "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-2.1.0.tgz"
+    },
+    "xmldom": {
+      "version": "0.1.19",
+      "from": "xmldom@>=0.1.19 <0.2.0",
+      "resolved": "https://registry.npmjs.org/xmldom/-/xmldom-0.1.19.tgz"
+    },
+    "xpath": {
+      "version": "0.0.5",
+      "from": "xpath@0.0.5",
+      "resolved": "https://registry.npmjs.org/xpath/-/xpath-0.0.5.tgz"
+    },
+    "xpath.js": {
+      "version": "1.0.6",
+      "from": "xpath.js@>=0.0.3",
+      "resolved": "https://registry.npmjs.org/xpath.js/-/xpath.js-1.0.6.tgz"
+    }
+  }
+}
