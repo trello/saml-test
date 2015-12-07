@@ -13,7 +13,7 @@ const usage = function(err) {
 }
 
 const die = function(err) {
-  console.error(err)
+  if (err) console.error(err)
   process.exit(1)
 }
 
@@ -75,7 +75,7 @@ sp.post_assert(idp, {
     return
   }
 
-  console.error("Did not accept authn response: " + err.message)
+  console.log("Did not accept authn response: " + err.message)
 
   // If it's not about the signature, we can't do more
   if (!/SAML Assertion signature check failed/.test(err.message)) {
@@ -146,13 +146,12 @@ sp.post_assert(idp, {
 
   if (signed.checkSignature(assertion.toString())) {
     console.log("Direct signature check passed. I have no idea what's wrong.")
-    return
+    die()
   }
 
-  console.error("The following validation errors occurred:")
+  console.log("The following validation errors occurred:")
   for (let err of signed.validationErrors) {
-    console.error("  " + err)
+    console.log("  " + err)
   }
-
-  // Try
+  die()
 })
