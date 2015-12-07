@@ -123,6 +123,27 @@ sp.post_assert(idp, {
   }
   console.log(SEP)
 
+  // Doing one extra step to figure out the canonical xml
+  console.log("Computed canonicalized xml for references:")
+  for (let reference of signed.references) {
+    console.log(SEP)
+    const uri = reference.uri.replace(/^#/, '')
+    const elem = signed.idAttributes.map((attr) =>
+      xmlcrypto.xpath(assertion,
+        "//*[@*[local-name(.)='" + attr + "']='" + uri + "']"
+      )
+    ).find((doc) => doc.length > 0)
+
+    if (elem.length === 0) {
+      console.log("[Reference not found]")
+    } else {
+      console.log(signed.getCanonXml(reference.transforms, elem[0], {
+        inclusiveNamespacesPrefixList: reference.inclusiveNamespacesPrefixList
+      }).toString());
+    }
+  }
+  console.log(SEP)
+
   if (signed.checkSignature(assertion.toString())) {
     console.log("Direct signature check passed. I have no idea what's wrong.")
     return
