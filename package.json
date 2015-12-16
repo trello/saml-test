@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "saml2-js": "^1.2.0",
-    "xmldom": "^0.1.19"
+    "xmldom": "^0.1.19",
     "xml-crypto": "^0.8.1"
   }
 }
