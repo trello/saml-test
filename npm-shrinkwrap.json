@@ -3,24 +3,14 @@
   "version": "1.0.0",
   "dependencies": {
     "async": {
-      "version": "0.2.10",
-      "from": "async@>=0.2.10 <0.3.0"
-    },
-    "async-ext": {
-      "version": "0.1.5",
-      "from": "async-ext@>=0.1.4 <0.2.0",
-      "resolved": "https://registry.npmjs.org/async-ext/-/async-ext-0.1.5.tgz",
-      "dependencies": {
-        "underscore": {
-          "version": "1.5.2",
-          "from": "underscore@>=1.5.2 <1.6.0",
-          "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz"
-        }
-      }
+      "version": "1.5.2",
+      "from": "async@>=1.5.2 <1.6.0",
+      "resolved": "https://registry.npmjs.org/async/-/async-1.5.2.tgz"
     },
     "debug": {
       "version": "1.0.4",
-      "from": "debug@>=1.0.4 <2.0.0"
+      "from": "debug@>=1.0.4 <2.0.0",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-1.0.4.tgz"
     },
     "ejs": {
       "version": "0.8.8",
@@ -28,9 +18,9 @@
       "resolved": "https://registry.npmjs.org/ejs/-/ejs-0.8.8.tgz"
     },
     "lodash": {
-      "version": "3.10.1",
-      "from": "lodash@>=3.5.0 <4.0.0",
-      "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+      "version": "4.15.0",
+      "from": "lodash@>=4.0.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.15.0.tgz"
     },
     "ms": {
       "version": "0.6.2",
@@ -43,14 +33,14 @@
       "resolved": "https://registry.npmjs.org/node-forge/-/node-forge-0.2.24.tgz"
     },
     "saml2-js": {
-      "version": "1.2.0",
-      "from": "saml2-js@latest",
-      "resolved": "https://registry.npmjs.org/saml2-js/-/saml2-js-1.2.0.tgz"
+      "version": "1.8.1",
+      "from": "trello/saml2#v1.8.1-with-multi-sig",
+      "resolved": "git://github.com/trello/saml2.git#16185d4fb07b3516e6f0ef674b3871879c260c83"
     },
     "sax": {
-      "version": "1.1.4",
+      "version": "1.2.1",
       "from": "sax@>=0.6.0",
-      "resolved": "https://registry.npmjs.org/sax/-/sax-1.1.4.tgz"
+      "resolved": "https://registry.npmjs.org/sax/-/sax-1.2.1.tgz"
     },
     "underscore": {
       "version": "1.6.0",
@@ -63,19 +53,26 @@
       "resolved": "https://registry.npmjs.org/xml-crypto/-/xml-crypto-0.8.1.tgz"
     },
     "xml-encryption": {
-      "version": "0.7.2",
-      "from": "xml-encryption@>=0.7.0 <0.8.0",
-      "resolved": "https://registry.npmjs.org/xml-encryption/-/xml-encryption-0.7.2.tgz"
+      "version": "0.7.4",
+      "from": "xml-encryption@>=0.7.4 <0.8.0",
+      "resolved": "https://registry.npmjs.org/xml-encryption/-/xml-encryption-0.7.4.tgz",
+      "dependencies": {
+        "async": {
+          "version": "0.2.10",
+          "from": "async@>=0.2.7 <0.3.0",
+          "resolved": "https://registry.npmjs.org/async/-/async-0.2.10.tgz"
+        }
+      }
     },
     "xml2js": {
-      "version": "0.4.15",
+      "version": "0.4.17",
       "from": "xml2js@>=0.4.1 <0.5.0",
-      "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.15.tgz",
+      "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.17.tgz",
       "dependencies": {
         "xmlbuilder": {
-          "version": "4.1.0",
-          "from": "xmlbuilder@>=2.4.6",
-          "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-4.1.0.tgz"
+          "version": "4.2.1",
+          "from": "xmlbuilder@>=4.1.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-4.2.1.tgz"
         }
       }
     },

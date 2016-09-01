@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "saml2-js": "^1.2.0",
+    "saml2-js": "github:trello/saml2#v1.8.1-with-multi-sig",
     "xmldom": "^0.1.19",
     "xml-crypto": "^0.8.1"
   }
